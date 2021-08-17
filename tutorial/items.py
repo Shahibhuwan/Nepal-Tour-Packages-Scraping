@@ -8,11 +8,14 @@ import scrapy
 
 class TutorialItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    title =scrapy.Field()
+    url = scrapy.Field()
+    name =scrapy.Field()
     price =scrapy.Field()
-    duration =scrapy.Field()
-    discount =scrapy.Field()
+    #description1 =scrapy.Field()
+    description2 =scrapy.Field()
+    description3 =scrapy.Field()
+    description4 =scrapy.Field()
+    #discount =scrapy.Field()
     types =scrapy.Field()
     citi =scrapy.Field()
     pass
